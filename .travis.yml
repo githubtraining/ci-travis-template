@@ -1,0 +1,5 @@
+language: ruby
+rvm:
+- replace me with rvm
+script:
+- echo "Starting build!"
