@@ -3,3 +3,5 @@ rvm:
 - replace me with rvm
 script:
 - echo "Starting build!"
+- REPLACE-ME-WITH-BUILD-SCRIPT
+- echo "Finished build."
