@@ -1,7 +1,13 @@
 language: ruby
 rvm:
-- replace me with rvm
+- 2.4.1
 script:
 - echo "Starting build!"
-- REPLACE-ME-WITH-BUILD-SCRIPT
+- bundle exec jekyll build
 - echo "Finished build."
+jobs:
+  include:
+    - stage: build
+      script: script/build
+    - stage: testlinks
+      script: REPLACE-ME-WITH-HTML-PROOFER-SCRIPT
