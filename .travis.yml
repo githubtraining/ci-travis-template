@@ -1,4 +1,5 @@
 language: ruby
+cache: bundler # include caching to speed up subsequent build durations
 rvm:
 - replace me with rvm
 script:
